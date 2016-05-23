@@ -68,7 +68,8 @@ class sampler(MPF):
     
         # e. g. if the elemnt ith is 2 add J_orig[j, 2] to E[2] (times 2 for bias)
     
-        for i in xrange(len(row)): E[row[i]] += 2 * J[j, i]
+        for i in xrange(len(row)): 
+            if i != j: E[row[i]] += 2 * J[j, i]
      
     
         # Take the exp of the negative energy
