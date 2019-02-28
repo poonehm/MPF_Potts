@@ -55,6 +55,7 @@ def covariance(J_orig, J_fit, samples_orig, samples_fit):
     It compares the samples generated from the Original and Fit coupling matrices
     """
     
+     
     cov_orig = np.cov(samples_orig, rowvar=0)
     np.fill_diagonal(cov_orig, 0.) 
     
