@@ -79,7 +79,6 @@ def main():
     coupling(J_orig, J_fit)
     
     
-    
     # Also compare the covariance of the samples from Original and Fit coupling matrices
     
     samples_fit = o.sampler(J_fit, nsamples)
