@@ -7,7 +7,6 @@ minimizing it to get the parameters.
 """
 
 
-
 import theano
 import theano.tensor as T
 import numpy as np 
