@@ -7,7 +7,6 @@ The elements can take the value of {0, 1, ..., (q - 1)}
 """ 
 
 
-
 """
 3 steps to resample each row vector elements(q = 3):
 
